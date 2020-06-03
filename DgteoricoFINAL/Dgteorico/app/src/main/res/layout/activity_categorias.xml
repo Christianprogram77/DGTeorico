@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categorias">
+
+    <ImageButton
+        android:id="@+id/imageButtonDrogas"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onClick"
+        android:tint="#00513D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/drogas" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCarretera"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:onClick="clickCarreteras"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonDrogas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carretera" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSenal"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="60dp"
+        android:onClick="clickSeniales"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonDrogas"
+        app:srcCompat="@drawable/senal" />
+
+    <ImageButton
+        android:id="@+id/imageButtonExamen"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:onClick="clickSimulacro"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonSenal"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCarretera"
+        app:srcCompat="@drawable/examen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

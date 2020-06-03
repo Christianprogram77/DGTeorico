@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dgteorico</string>
+    <string name="btnentrar">Entrar</string>
+    <string name="tvregistrousuario">Registro de Usuarios</string>
+    <string name="btnregisusu">Registrar usuario</string>
+    <string name="tvhomeexpl">¡Bienvenido a DG-Teórico! nos alegra verte por aquí y saber que vamos a ayudarte con tu examen teórico de conducir. A continuación, encontrarás 4 tipos
+    distintos de examenes, Drogas, Tipos de carreteras y sus velocidades, Señales, y por último, el Simulacro de examen, preparate la parte que más necesites y...¡Mucha suerte!</string>
+    <string name="btnhomeini">Iniciar</string>
+
+</resources>
