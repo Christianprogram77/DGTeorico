@@ -2,6 +2,7 @@
  TFC DAM Christian Durán Ocaña.
  ## Registro
  Registro en DG-Teórico     User: chris95@hotmail.es      Pass: tfg.        De todas formas, te puedes crear una cuenta propia y te dejará entrar gracias a la base de datos.
+ Si te descargas la APK desde el móvil, tienes que registrarte.
  ## Video
  Enlace del video:
  ## Explicación app
